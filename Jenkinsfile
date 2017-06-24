@@ -3,9 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo $PWD'
+                sh 'ruby --version'
             }
         }
     }
 }
-
